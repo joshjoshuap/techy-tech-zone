@@ -1,0 +1,62 @@
+import sampleLaptop from "../assets/images/sample-laptop.jpg";
+
+const Main = () => {
+  return (
+    <main className="container my-5" id="main">
+      <h1 className="display-3">Laptops</h1>
+      <div className="row py-5">
+        <div className="col">
+          <img
+            className="img-fluid rounded-2"
+            src={sampleLaptop}
+            alt="Laptop Iamge"
+          ></img>
+        </div>
+        <div className="col px-5">
+          <h1 className="mb-4 text-decoration-underline">Lenovo abcd123</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            gravida sem condimentum turpis fermentum.
+          </p>
+          <h4>Specifications</h4>
+          <ul className="lh-lg">
+            <li>adipiscing elit. Nulla gravida sem condimentum turpis</li>
+            <li>adipiscing elit. Nulla gravida sem condimentum turpis</li>
+            <li>adipiscing elit. Nulla gravida sem condimentum turpis</li>
+            <li>adipiscing elit. Nulla gravida sem condimentum turpis</li>
+            <li>adipiscing elit. Nulla gravida sem condimentum turpis</li>
+            <li>adipiscing elit. Nulla gravida sem condimentum turpis</li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="row py-5">
+        <div className="col px-5">
+          <h1 className="mb-4 text-decoration-underline">Lenovo abcd123</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            gravida sem condimentum turpis fermentum.
+          </p>
+          <h4>Specifications</h4>
+          <ul className="lh-lg">
+            <li>adipiscing elit. Nulla gravida sem condimentum turpis</li>
+            <li>adipiscing elit. Nulla gravida sem condimentum turpis</li>
+            <li>adipiscing elit. Nulla gravida sem condimentum turpis</li>
+            <li>adipiscing elit. Nulla gravida sem condimentum turpis</li>
+            <li>adipiscing elit. Nulla gravida sem condimentum turpis</li>
+            <li>adipiscing elit. Nulla gravida sem condimentum turpis</li>
+          </ul>
+        </div>
+        <div className="col">
+          <img
+            className="img-fluid rounded-2"
+            src={sampleLaptop}
+            alt="Laptop Iamge"
+          ></img>
+        </div>
+      </div>
+    </main>
+  );
+};
+
+export default Main;

@@ -2,7 +2,7 @@ import headingImage from "../assets/images/heading-image.jpg";
 
 const Header = () => {
   return (
-    <header className="bg-dark text-light p-5">
+    <header className="bg-dark text-light py-5">
       <div className="container">
         <div className="row gap-1">
           <div className="col w-25">
@@ -25,6 +25,15 @@ const Header = () => {
               alt="gadgets pictures"
             ></img>
           </div>
+        </div>
+
+        <div className="ps-3">
+          <a
+            className="btn btn-outline-light fs-5 fw-semibold py-2 px-5"
+            href="#main"
+          >
+            Browse
+          </a>
         </div>
       </div>
     </header>

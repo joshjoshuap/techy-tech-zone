@@ -2,9 +2,6 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
       <div className="container">
-        <a className="navbar-brand fs-3" href="/">
-          TechyTech
-        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -17,7 +14,7 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav fs-5 fw-semibold">
+          <ul className="navbar-nav fs-4 fw-semibold">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="/">
                 Home
