@@ -48,6 +48,9 @@ const Navbar = (props) => {
         </div>
       </nav>
       {props.children}
+      {/* <footer className="bg-dark text-light text-center p-2">
+        Joshua Copyright
+      </footer> */}
     </>
   );
 };
