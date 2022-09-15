@@ -11,8 +11,8 @@ import sampleTablet from "../assets/images/sample-tablet.jpg";
 import sampleGadget from "../assets/images/sample-gadget.jpg";
 
 const Home = () => {
-  let laptopProduct1 = laptopItems[0].lenovoYoga123;
-  let laptopProduct2 = laptopItems[0].lenovoLegion5;
+  let laptopProduct1 = laptopItems[0].lenovo.Yoga123;
+  let laptopProduct2 = laptopItems[0].lenovo.Legion5;
   let phoneProduct1 = phoneItems[0].iphone14Pro;
   let phoneProduct2 = phoneItems[0].samsungS21;
   let tabletProduct1 = tabletItems[0].samsungTabS8;

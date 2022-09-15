@@ -1,11 +1,11 @@
-import laptopBrands from "../../assets/images/logo/laptop-brands.png";
-import Header from "../../components/Header";
-import Lenovo from "./Lenovo";
-import Acer from "./Acer";
-import Asus from "./Asus";
-import Dell from "./Dell";
-import Hp from "./Hp";
-import MSI from "./Msi";
+import laptopBrands from "../assets/images/logo/laptop-brands.png";
+import Header from "../components/Header";
+import Lenovo from "./Laptop/Lenovo";
+import Acer from "./Laptop/Acer";
+import Asus from "./Laptop/Asus";
+import Dell from "./Laptop/Dell";
+import Hp from "./Laptop/Hp";
+import MSI from "./Laptop/Msi";
 
 const Laptop = () => {
   return (

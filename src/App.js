@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
-import Laptop from "./pages/Laptop/Laptop";
+import Laptop from "./pages/Laptop";
 import Phone from "./pages/Phone";
 import Tablet from "./pages/Tablet";
 import Gadgets from "./pages/Gadgets";
