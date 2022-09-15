@@ -4,11 +4,13 @@ import laptopItems from "../js/laptop-items";
 import phoneItems from "../js/phone-items";
 import tabletItems from "../js/tablet-items";
 import gadgetItems from "../js/gadget-items";
-import headerImage from "../assets/images/heading-image.jpg";
-import sampleLatop from "../assets/images/sample-laptop.jpg";
-import samplePhone from "../assets/images/sample-phone.jpg";
-import sampleTablet from "../assets/images/sample-tablet.jpg";
-import sampleGadget from "../assets/images/sample-gadget.jpg";
+import {
+  headerImage,
+  sampleLaptop,
+  samplePhone,
+  sampleTablet,
+  sampleGadget,
+} from "../js/image-assets";
 
 const Home = () => {
   let laptopProduct1 = laptopItems[0].lenovo.Yoga123;
@@ -37,11 +39,11 @@ const Home = () => {
         <Section
           sectionTitle="Laptops"
           titleProduct1={laptopProduct1.title}
-          imageProduct1={sampleLatop}
+          imageProduct1={sampleLaptop}
           descProduct1={laptopProduct1.description}
           specsProduct1={laptopProduct1.specs}
           titleProduct2={laptopProduct2.title}
-          imageProduct2={sampleLatop}
+          imageProduct2={sampleLaptop}
           descProduct2={laptopProduct2.description}
           specsProduct2={laptopProduct2.specs}
         />

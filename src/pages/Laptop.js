@@ -1,8 +1,8 @@
-import laptopBrands from "../assets/images/logo/laptop-brands.png";
+import { laptopBrands } from "../js/image-assets";
 import Header from "../components/Header";
-import Lenovo from "./Laptop/Lenovo";
 import Acer from "./Laptop/Acer";
 import Asus from "./Laptop/Asus";
+import Lenovo from "./Laptop/Lenovo";
 import Dell from "./Laptop/Dell";
 import Hp from "./Laptop/Hp";
 import MSI from "./Laptop/Msi";
