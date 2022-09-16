@@ -5,7 +5,6 @@ import Asus from "./Laptop/Asus";
 import Lenovo from "./Laptop/Lenovo";
 import Dell from "./Laptop/Dell";
 import Hp from "./Laptop/Hp";
-import MSI from "./Laptop/Msi";
 
 const Laptop = () => {
   return (
@@ -27,7 +26,6 @@ const Laptop = () => {
         <Asus />
         <Dell />
         <Hp />
-        <MSI />
       </main>
     </>
   );
