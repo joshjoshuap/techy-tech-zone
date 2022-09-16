@@ -1,11 +1,12 @@
+
 const specList = (product) => {
   return <li>{product.specs}</li>;
 };
 
-const Section = (props) => {
+const HomeSection = (props) => {
   return (
     <div className="py-5">
-      <h1 className="display-3">{props.sectionTitle}</h1>
+      <h1 className="display-2">{props.sectionTitle}</h1>
       <div className="row py-3">
         <div className="col">
           <img
@@ -45,4 +46,4 @@ const Section = (props) => {
   );
 };
 
-export default Section;
+export default HomeSection;

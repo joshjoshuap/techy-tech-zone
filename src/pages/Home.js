@@ -1,9 +1,3 @@
-import Header from "../components/Header";
-import Section from "../components/Section";
-import laptopItems from "../js/laptop-items";
-import phoneItems from "../js/phone-items";
-import tabletItems from "../js/tablet-items";
-import gadgetItems from "../js/gadget-items";
 import {
   headerImage,
   sampleLaptop,
@@ -11,16 +5,22 @@ import {
   sampleTablet,
   sampleGadget,
 } from "../js/image-assets";
+import Header from "../components/Header";
+import HomeSection from "../components/HomeSection";
+import laptopItems from "../js/laptop-items";
+import phoneItems from "../js/phone-items";
+import tabletItems from "../js/tablet-items";
+import gadgetItems from "../js/gadget-items";
 
 const Home = () => {
-  let laptopProduct1 = laptopItems[0].lenovo.Yoga123;
-  let laptopProduct2 = laptopItems[0].lenovo.Legion5;
-  let phoneProduct1 = phoneItems[0].iphone14Pro;
-  let phoneProduct2 = phoneItems[0].samsungS21;
-  let tabletProduct1 = tabletItems[0].samsungTabS8;
-  let tabletProduct2 = tabletItems[0].realmePad;
-  let gadgetProduct1 = gadgetItems[0].playstation5;
-  let gadgetProduct2 = gadgetItems[0].samsungGalaxyWatch4;
+  let laptopProduct1 = laptopItems.lenovo[0];
+  let laptopProduct2 = laptopItems.lenovo[1];
+  let phoneProduct1 = phoneItems.iphone[0];
+  let phoneProduct2 = phoneItems.iphone[1];
+  let tabletProduct1 = tabletItems.samsung[0];
+  let tabletProduct2 = tabletItems.samsung[1];
+  let gadgetProduct1 = gadgetItems.consoleGaming[0];
+  let gadgetProduct2 = gadgetItems.consoleGaming[1];
   return (
     <>
       <Header
@@ -34,9 +34,9 @@ const Home = () => {
         efficitur quis."
         headerImage={headerImage}
       />
-      <main className="container" id="main">
+      <main className="container py-5" id="main">
         {/* Laptops Section*/}
-        <Section
+        <HomeSection
           sectionTitle="Laptops"
           titleProduct1={laptopProduct1.title}
           imageProduct1={sampleLaptop}
@@ -49,7 +49,7 @@ const Home = () => {
         />
 
         {/* Phone Section */}
-        <Section
+        <HomeSection
           sectionTitle="Mobile Phones"
           titleProduct1={phoneProduct1.title}
           imageProduct1={samplePhone}
@@ -62,7 +62,7 @@ const Home = () => {
         />
 
         {/* Tablet Section */}
-        <Section
+        <HomeSection
           sectionTitle="Tablet"
           titleProduct1={tabletProduct1.title}
           imageProduct1={sampleTablet}
@@ -75,7 +75,7 @@ const Home = () => {
         />
 
         {/* Gadgets Section */}
-        <Section
+        <HomeSection
           sectionTitle="Gadgets"
           titleProduct1={gadgetProduct1.title}
           imageProduct1={sampleGadget}

@@ -1,7 +1,10 @@
-const tabletItems = [
-  {
-    samsungTabS8: {
+import { sampleTablet } from "./image-assets";
+
+const tabletItems = {
+  samsung: [
+    {
       title: "Samsung Tab S8",
+      image: sampleTablet,
       description:
         "Samsung Tab S8 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida sem condimentum turpis fermentum.",
       specs: [
@@ -16,8 +19,9 @@ const tabletItems = [
         },
       ],
     },
-    realmePad: {
+    {
       title: "Realme Pad",
+      image: sampleTablet,
       description:
         "Realme Pad - Lorem ipsulla gravida sem condimentum turpis fermentum.um dolor sit amet, consectetur adipiscing elit. N",
       specs: [
@@ -32,7 +36,7 @@ const tabletItems = [
         },
       ],
     },
-  },
-];
+  ],
+};
 
 export default tabletItems;

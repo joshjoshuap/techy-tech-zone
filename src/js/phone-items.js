@@ -1,7 +1,10 @@
-const phoneItems = [
-  {
-    iphone14Pro: {
+import { samplePhone } from "./image-assets";
+
+const phoneItems = {
+  iphone: [
+    {
       title: "Iphone 14 Pro",
+      image: samplePhone,
       description:
         "Iphone 14 Pro - Nulla gravida sem condimentum turpis fermentum.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       specs: [
@@ -16,8 +19,9 @@ const phoneItems = [
         },
       ],
     },
-    samsungS21: {
+    {
       title: "Samsung S21",
+      image: samplePhone,
       description:
         "Samsung S21 - Lorem ipsulla gravida sem condimentum turpis fermentum.um dolor sit amet, consectetur adipiscing elit. N",
       specs: [
@@ -32,7 +36,7 @@ const phoneItems = [
         },
       ],
     },
-  },
-];
+  ],
+};
 
 export default phoneItems;
