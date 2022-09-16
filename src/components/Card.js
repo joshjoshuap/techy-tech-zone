@@ -3,7 +3,7 @@ const CardInfo = (props) => {
     width: "18rem",
   };
   return (
-    <div class="card col-6" style={cardStyle}>
+    <div class="card" style={cardStyle}>
       <img src={props.image} class="card-img-top" alt="Laptop" />
       <div class="card-body">
         <h5 class="card-title">{props.title}</h5>
@@ -19,7 +19,11 @@ const CardInfo = (props) => {
 const Card = (props) => {
   let laptopInfo = props.info;
 
-  return <>{laptopInfo.map(CardInfo)}</>;
+  return (
+    <div className="d-flex flex-wrap gap-3 justify-content-center">
+      {laptopInfo.map(CardInfo)}
+    </div>
+  );
 };
 
 export default Card;

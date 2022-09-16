@@ -1,9 +1,3 @@
-import Header from "../components/Header";
-import Section from "../components/Section";
-import laptopItems from "../js/laptop-items";
-import phoneItems from "../js/phone-items";
-import tabletItems from "../js/tablet-items";
-import gadgetItems from "../js/gadget-items";
 import {
   headerImage,
   sampleLaptop,
@@ -11,6 +5,12 @@ import {
   sampleTablet,
   sampleGadget,
 } from "../js/image-assets";
+import Header from "../components/Header";
+import HomeSection from "../components/HomeSection";
+import laptopItems from "../js/laptop-items";
+import phoneItems from "../js/phone-items";
+import tabletItems from "../js/tablet-items";
+import gadgetItems from "../js/gadget-items";
 
 const Home = () => {
   let laptopProduct1 = laptopItems.lenovo[0];
@@ -34,9 +34,9 @@ const Home = () => {
         efficitur quis."
         headerImage={headerImage}
       />
-      <main className="container" id="main">
+      <main className="container py-5" id="main">
         {/* Laptops Section*/}
-        <Section
+        <HomeSection
           sectionTitle="Laptops"
           titleProduct1={laptopProduct1.title}
           imageProduct1={sampleLaptop}
@@ -49,7 +49,7 @@ const Home = () => {
         />
 
         {/* Phone Section */}
-        <Section
+        <HomeSection
           sectionTitle="Mobile Phones"
           titleProduct1={phoneProduct1.title}
           imageProduct1={samplePhone}
@@ -62,7 +62,7 @@ const Home = () => {
         />
 
         {/* Tablet Section */}
-        <Section
+        <HomeSection
           sectionTitle="Tablet"
           titleProduct1={tabletProduct1.title}
           imageProduct1={sampleTablet}
@@ -75,7 +75,7 @@ const Home = () => {
         />
 
         {/* Gadgets Section */}
-        <Section
+        <HomeSection
           sectionTitle="Gadgets"
           titleProduct1={gadgetProduct1.title}
           imageProduct1={sampleGadget}

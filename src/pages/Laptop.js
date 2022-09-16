@@ -1,12 +1,11 @@
 import { laptopBrands } from "../js/image-assets";
 import Header from "../components/Header";
-import Acer from "./Laptop/Acer";
-import Asus from "./Laptop/Asus";
-import Lenovo from "./Laptop/Lenovo";
-import Dell from "./Laptop/Dell";
-import Hp from "./Laptop/Hp";
+import ItemSection from "../components/ItemSection";
+import Card from "../components/Card";
+import laptopItems from "../js/laptop-items";
 
 const Laptop = () => {
+  let lenovoInfo = laptopItems.lenovo;
   return (
     <>
       <Header
@@ -20,12 +19,22 @@ const Laptop = () => {
         nisl, eu congue nisi efficitur quis."
         headerImage={laptopBrands}
       />
-      <main className="py-5" id="main">
-        <Lenovo />
-        <Acer />
-        <Asus />
-        <Dell />
-        <Hp />
+      <main className="container py-5" id="main">
+        <ItemSection sectionTitle="Lenovo">
+          <Card info={lenovoInfo} />
+        </ItemSection>
+        <ItemSection sectionTitle="Acer">
+          <Card info={lenovoInfo} />
+        </ItemSection>
+        <ItemSection sectionTitle="Asus">
+          <Card info={lenovoInfo} />
+        </ItemSection>
+        <ItemSection sectionTitle="Dell">
+          <Card info={lenovoInfo} />
+        </ItemSection>
+        <ItemSection sectionTitle="Hp">
+          <Card info={lenovoInfo} />
+        </ItemSection>
       </main>
     </>
   );
