@@ -15,12 +15,12 @@ import gadgetItems from "../js/gadget-items";
 const Home = () => {
   let laptopProduct1 = laptopItems.lenovo[0];
   let laptopProduct2 = laptopItems.lenovo[1];
-  let phoneProduct1 = phoneItems[0].iphone14Pro;
-  let phoneProduct2 = phoneItems[0].samsungS21;
-  let tabletProduct1 = tabletItems[0].samsungTabS8;
-  let tabletProduct2 = tabletItems[0].realmePad;
-  let gadgetProduct1 = gadgetItems[0].playstation5;
-  let gadgetProduct2 = gadgetItems[0].samsungGalaxyWatch4;
+  let phoneProduct1 = phoneItems.iphone[0];
+  let phoneProduct2 = phoneItems.iphone[1];
+  let tabletProduct1 = tabletItems.samsung[0];
+  let tabletProduct2 = tabletItems.samsung[1];
+  let gadgetProduct1 = gadgetItems.consoleGaming[0];
+  let gadgetProduct2 = gadgetItems.consoleGaming[1];
   return (
     <>
       <Header
