@@ -1,6 +1,7 @@
 import {
   headerImage,
-  sampleLaptop,
+  lenovoLegion5,
+  acerNitro5,
   samplePhone,
   sampleTablet,
   sampleGadget,
@@ -13,8 +14,8 @@ import tabletItems from "../js/tablet-items";
 import gadgetItems from "../js/gadget-items";
 
 const Home = () => {
-  let laptopProduct1 = laptopItems.lenovo[0];
-  let laptopProduct2 = laptopItems.lenovo[1];
+  let lenovoLegion5Info = laptopItems.lenovo[0];
+  let acerNitro5Info = laptopItems.acer[1];
   let phoneProduct1 = phoneItems.iphone[0];
   let phoneProduct2 = phoneItems.iphone[1];
   let tabletProduct1 = tabletItems.samsung[0];
@@ -38,14 +39,14 @@ const Home = () => {
         {/* Laptops Section*/}
         <HomeSection
           sectionTitle="Laptops"
-          titleProduct1={laptopProduct1.title}
-          imageProduct1={sampleLaptop}
-          descProduct1={laptopProduct1.description}
-          specsProduct1={laptopProduct1.specs}
-          titleProduct2={laptopProduct2.title}
-          imageProduct2={sampleLaptop}
-          descProduct2={laptopProduct2.description}
-          specsProduct2={laptopProduct2.specs}
+          titleProduct1={lenovoLegion5Info.title}
+          imageProduct1={lenovoLegion5}
+          descProduct1={lenovoLegion5Info.description}
+          specsProduct1={lenovoLegion5Info.specs}
+          titleProduct2={acerNitro5Info.title}
+          imageProduct2={acerNitro5}
+          descProduct2={acerNitro5Info.description}
+          specsProduct2={acerNitro5Info.specs}
         />
 
         {/* Phone Section */}

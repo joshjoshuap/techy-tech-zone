@@ -6,6 +6,11 @@ import laptopItems from "../js/laptop-items";
 
 const Laptop = () => {
   let lenovoInfo = laptopItems.lenovo;
+  let acerInfo = laptopItems.acer;
+  let asusInfo = laptopItems.asus;
+  let dellInfo = laptopItems.dell;
+  let hpInfo = laptopItems.hp;
+
   return (
     <>
       <Header
@@ -24,16 +29,16 @@ const Laptop = () => {
           <Card info={lenovoInfo} />
         </ItemSection>
         <ItemSection sectionTitle="Acer">
-          <Card info={lenovoInfo} />
+          <Card info={acerInfo} />
         </ItemSection>
         <ItemSection sectionTitle="Asus">
-          <Card info={lenovoInfo} />
+          <Card info={asusInfo} />
         </ItemSection>
         <ItemSection sectionTitle="Dell">
-          <Card info={lenovoInfo} />
+          <Card info={dellInfo} />
         </ItemSection>
         <ItemSection sectionTitle="Hp">
-          <Card info={lenovoInfo} />
+          <Card info={hpInfo} />
         </ItemSection>
       </main>
     </>

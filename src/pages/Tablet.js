@@ -1,4 +1,4 @@
-import { laptopBrands } from "../js/image-assets";
+import { tabletBrands } from "../js/image-assets";
 import Header from "../components/Header";
 import ItemSection from "../components/ItemSection";
 import Card from "../components/Card";
@@ -17,7 +17,7 @@ const Tablet = () => {
         mollis purus, vitae rhoncus velit orci nec nibh. Integer
         ultricies dolor sed luctus volutpat. Donec vulputate lacinia
         nisl, eu congue nisi efficitur quis."
-        headerImage={laptopBrands}
+        headerImage={tabletBrands}
       />
       <main className="container py-5" id="main">
         <ItemSection sectionTitle="IPad">
