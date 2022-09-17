@@ -1,4 +1,3 @@
-
 const specList = (product) => {
   return <li>{product.specs}</li>;
 };
@@ -32,12 +31,12 @@ const HomeSection = (props) => {
           </h1>
           <p>{props.descProduct2}</p>
           <h4>Specifications</h4>
-          <ul className="lh-lg">{props.specsProduct1.map(specList)}</ul>
+          <ul className="lh-lg">{props.specsProduct2.map(specList)}</ul>
         </div>
         <div className="col">
           <img
             className="img-fluid rounded-2"
-            src={props.imageProduct1}
+            src={props.imageProduct2}
             alt="Laptop Iamge"
           ></img>
         </div>
