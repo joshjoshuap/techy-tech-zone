@@ -1,11 +1,4 @@
-import {
-  headerImage,
-  lenovoLegion5,
-  acerNitro5,
-  samplePhone,
-  sampleTablet,
-  sampleGadget,
-} from "../js/image-assets";
+import { headerImage, sampleTablet, sampleGadget } from "../js/image-assets";
 import Header from "../components/Header";
 import HomeSection from "../components/HomeSection";
 import laptopItems from "../js/laptop-items";
@@ -16,8 +9,8 @@ import gadgetItems from "../js/gadget-items";
 const Home = () => {
   let lenovoLegion5Info = laptopItems.lenovo[0];
   let acerNitro5Info = laptopItems.acer[1];
-  let phoneProduct1 = phoneItems.iphone[0];
-  let phoneProduct2 = phoneItems.iphone[1];
+  let iphone14ProInfo = phoneItems.iphone[0];
+  let iphone13Info = phoneItems.iphone[1];
   let tabletProduct1 = tabletItems.samsung[0];
   let tabletProduct2 = tabletItems.samsung[1];
   let gadgetProduct1 = gadgetItems.consoleGaming[0];
@@ -40,11 +33,11 @@ const Home = () => {
         <HomeSection
           sectionTitle="Laptops"
           titleProduct1={lenovoLegion5Info.title}
-          imageProduct1={lenovoLegion5}
+          imageProduct1={lenovoLegion5Info.image}
           descProduct1={lenovoLegion5Info.description}
           specsProduct1={lenovoLegion5Info.specs}
           titleProduct2={acerNitro5Info.title}
-          imageProduct2={acerNitro5}
+          imageProduct2={acerNitro5Info.image}
           descProduct2={acerNitro5Info.description}
           specsProduct2={acerNitro5Info.specs}
         />
@@ -52,14 +45,14 @@ const Home = () => {
         {/* Phone Section */}
         <HomeSection
           sectionTitle="Mobile Phones"
-          titleProduct1={phoneProduct1.title}
-          imageProduct1={samplePhone}
-          descProduct1={phoneProduct1.description}
-          specsProduct1={phoneProduct1.specs}
-          titleProduct2={phoneProduct2.title}
-          imageProduct2={samplePhone}
-          descProduct2={phoneProduct2.description}
-          specsProduct2={phoneProduct2.specs}
+          titleProduct1={iphone14ProInfo.title}
+          imageProduct1={iphone14ProInfo.image}
+          descProduct1={iphone14ProInfo.description}
+          specsProduct1={iphone14ProInfo.specs}
+          titleProduct2={iphone13Info.title}
+          imageProduct2={iphone13Info.image}
+          descProduct2={iphone13Info.description}
+          specsProduct2={iphone13Info.specs}
         />
 
         {/* Tablet Section */}

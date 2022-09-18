@@ -6,6 +6,10 @@ import phoneItems from "../js/phone-items";
 
 const Phone = () => {
   let iphoneInfo = phoneItems.iphone;
+  let samsungInfo = phoneItems.samsung;
+  let oppoInfo = phoneItems.oppo;
+  let vivoInfo = phoneItems.vivo;
+  let realmeInfo = phoneItems.realme;
   return (
     <>
       <Header
@@ -24,16 +28,16 @@ const Phone = () => {
           <Card info={iphoneInfo} />
         </ItemSection>
         <ItemSection sectionTitle="Samsung">
-          <Card info={iphoneInfo} />
+          <Card info={samsungInfo} />
         </ItemSection>
         <ItemSection sectionTitle="Oppo">
-          <Card info={iphoneInfo} />
+          <Card info={oppoInfo} />
         </ItemSection>
         <ItemSection sectionTitle="Vivo">
-          <Card info={iphoneInfo} />
+          <Card info={vivoInfo} />
         </ItemSection>
         <ItemSection sectionTitle="Realme">
-          <Card info={iphoneInfo} />
+          <Card info={realmeInfo} />
         </ItemSection>
       </main>
     </>

@@ -7,8 +7,12 @@ const CardInfo = (props) => {
     width: "18rem",
   };
   return (
-    <div class="card border-2 border-dark" style={cardStyle}>
-      <img src={props.image} class="card-img-top p-2" height={180} alt="Laptop" />
+    <div class="d-flex card border-2 border-dark" style={cardStyle}>
+      <img
+        src={props.image}
+        class="card-img-top my-2 w-75 mx-auto"
+        alt="Laptop"
+      />
       <div class="card-body">
         <h5 class="card-title fs-4 text-center mb-3">{props.title}</h5>
         <p class="card-text">

@@ -13,12 +13,12 @@ import dellLogo from "../assets/images/logo/dell-logo.png";
 import hpLogo from "../assets/images/logo/hp-logo.png";
 
 // Laptop Image
-import lenovoLegion5 from "../assets/images/laptop/lenovo-legion5.jpg";
+import lenovoLegion5 from "../assets/images/laptop/lenovo-legion5.png";
 import lenovoX1Carbon from "../assets/images/laptop/lenovo-x1carbon.jpg";
-import lenovoYoga6 from "../assets/images/laptop/lenovo-yoga6.jpg";
-import lenovoIdepad3 from "../assets/images/laptop/lenovo-idepad3.jpg";
+import lenovoYoga6 from "../assets/images/laptop/lenovo-yoga6.png";
+import lenovoIdepad3 from "../assets/images/laptop/lenovo-idepad3.png";
 import acerPredatorHelio from "../assets/images/laptop/acer-predatorhelios.jpg";
-import acerNitro5 from "../assets/images/laptop/acer-nitro5.jpg";
+import acerNitro5 from "../assets/images/laptop/acer-nitro5.png";
 import acerSwift5 from "../assets/images/laptop/acer-swift5.jpg";
 import acerAspire7 from "../assets/images/laptop/acer-aspire7.jpg";
 import asusZenbook14 from "../assets/images/laptop/asus-zenbook14.jpg";
@@ -27,10 +27,20 @@ import dellXPS13 from "../assets/images/laptop/dell-xps13.jpg";
 import dellInsipiron15 from "../assets/images/laptop/dell-inpiron15.jpg";
 import hpSpectreX360 from "../assets/images/laptop/hp-spectrex360.jpg";
 import hpEnvyX360 from "../assets/images/laptop/hp-envyx360.jpg";
-import sampleLaptop from "../assets/images/sample-laptop.jpg";
-import samplePhone from "../assets/images/sample-phone.jpg";
 import sampleTablet from "../assets/images/sample-tablet.jpg";
 import sampleGadget from "../assets/images/sample-gadget.jpg";
+
+// Phone Image
+import iphone14Pro from "../assets/images/phone/apple-iphone14.jpg";
+import iphone13 from "../assets/images/phone/apple-iphone13.jpg";
+import iphone12 from "../assets/images/phone/apple-iphone12.jpg";
+import samsungS22 from "../assets/images/phone/samsung-s22.jpg";
+import samsunga745g from "../assets/images/phone/samsung-a735G.jpg";
+import oppoReno5G from "../assets/images/phone/oppo-reno55g.jpg";
+import oppoFindX5Pro from "../assets/images/phone/oppo-findx5pro.jpg";
+import vivoX80Pro from "../assets/images/phone/vivo-x80pro.jpg";
+import realme9Pro from "../assets/images/phone/realme-9pro.jpg";
+import realme8Pro from "../assets/images/phone/realme-8pro.jpg";
 
 export {
   headerImage,
@@ -57,8 +67,16 @@ export {
   dellInsipiron15,
   hpSpectreX360,
   hpEnvyX360,
-  sampleLaptop,
-  samplePhone,
+  iphone14Pro,
+  iphone13,
+  iphone12,
+  samsungS22,
+  samsunga745g,
+  oppoReno5G,
+  oppoFindX5Pro,
+  vivoX80Pro,
+  realme9Pro,
+  realme8Pro,
   sampleTablet,
   sampleGadget,
 };
