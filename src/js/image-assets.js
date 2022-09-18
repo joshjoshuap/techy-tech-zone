@@ -33,7 +33,14 @@ import sampleGadget from "../assets/images/sample-gadget.jpg";
 // Phone Image
 import iphone14Pro from "../assets/images/phone/apple-iphone14.jpg";
 import iphone13 from "../assets/images/phone/apple-iphone13.jpg";
-import iphone12 from '../assets/images/phone/apple-iphone12.jpg'
+import iphone12 from "../assets/images/phone/apple-iphone12.jpg";
+import samsungS22 from "../assets/images/phone/samsung-s22.jpg";
+import samsunga745g from "../assets/images/phone/samsung-a735G.jpg";
+import oppoReno5G from "../assets/images/phone/oppo-reno55g.jpg";
+import oppoFindX5Pro from "../assets/images/phone/oppo-findx5pro.jpg";
+import vivoX80Pro from "../assets/images/phone/vivo-x80pro.jpg";
+import realme9Pro from "../assets/images/phone/realme-9pro.jpg";
+import realme8Pro from "../assets/images/phone/realme-8pro.jpg";
 
 export {
   headerImage,
@@ -63,6 +70,13 @@ export {
   iphone14Pro,
   iphone13,
   iphone12,
+  samsungS22,
+  samsunga745g,
+  oppoReno5G,
+  oppoFindX5Pro,
+  vivoX80Pro,
+  realme9Pro,
+  realme8Pro,
   sampleTablet,
   sampleGadget,
 };
