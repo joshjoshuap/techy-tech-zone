@@ -7,7 +7,7 @@ const HomeSection = (props) => {
     <div className="py-5">
       <h1 className="display-2">{props.sectionTitle}</h1>
       <div className="row py-3">
-        <div className="col">
+        <div className="col text-center">
           <img
             className="img-fluid rounded-2"
             src={props.imageProduct1}
@@ -33,7 +33,7 @@ const HomeSection = (props) => {
           <h4>Specifications</h4>
           <ul className="lh-lg">{props.specsProduct2.map(specList)}</ul>
         </div>
-        <div className="col">
+        <div className="col text-center">
           <img
             className="img-fluid rounded-2"
             src={props.imageProduct2}
