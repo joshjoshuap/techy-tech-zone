@@ -11,8 +11,8 @@ const Home = () => {
   let acerNitro5Info = laptopItems.acer[1];
   let iphone14ProInfo = phoneItems.iphone[0];
   let iphone13Info = phoneItems.iphone[1];
-  let tabletProduct1 = tabletItems.samsung[0];
-  let tabletProduct2 = tabletItems.samsung[1];
+  let ipadAir2022Info = tabletItems.ipad[0];
+  let ipadMiniInfo = tabletItems.ipad[1];
   let gadgetProduct1 = gadgetItems.consoleGaming[0];
   let gadgetProduct2 = gadgetItems.consoleGaming[1];
   return (
@@ -58,14 +58,14 @@ const Home = () => {
         {/* Tablet Section */}
         <HomeSection
           sectionTitle="Tablet"
-          titleProduct1={tabletProduct1.title}
-          imageProduct1={sampleTablet}
-          descProduct1={tabletProduct1.description}
-          specsProduct1={tabletProduct1.specs}
-          titleProduct2={tabletProduct2.title}
-          imageProduct2={sampleTablet}
-          descProduct2={tabletProduct2.description}
-          specsProduct2={tabletProduct2.specs}
+          titleProduct1={ipadAir2022Info.title}
+          imageProduct1={ipadAir2022Info.image}
+          descProduct1={ipadAir2022Info.description}
+          specsProduct1={ipadAir2022Info.specs}
+          titleProduct2={ipadMiniInfo.title}
+          imageProduct2={ipadMiniInfo.image}
+          descProduct2={ipadMiniInfo.description}
+          specsProduct2={ipadMiniInfo.specs}
         />
 
         {/* Gadgets Section */}

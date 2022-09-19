@@ -42,6 +42,13 @@ import vivoX80Pro from "../assets/images/phone/vivo-x80pro.jpg";
 import realme9Pro from "../assets/images/phone/realme-9pro.jpg";
 import realme8Pro from "../assets/images/phone/realme-8pro.jpg";
 
+// Tablet Image
+import ipadAir2022 from "../assets/images/tablet/apple-ipadair2022.jpg";
+import ipadMini from "../assets/images/tablet/apple-ipadmini.jpg";
+import samsungTabS8 from "../assets/images/tablet/samsung-galaxy-tab-s8.jpg";
+import samsungTabA8 from "../assets/images/tablet/samsung-galaxy-tab-a8.jpg";
+import huaweiMatePadPro from "../assets/images/tablet/huawei-matepad-pro-126-2021.jpg";
+
 export {
   headerImage,
   laptopBrands,
@@ -79,4 +86,9 @@ export {
   realme8Pro,
   sampleTablet,
   sampleGadget,
+  ipadAir2022,
+  ipadMini,
+  samsungTabS8,
+  samsungTabA8,
+  huaweiMatePadPro,
 };
