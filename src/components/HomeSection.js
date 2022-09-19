@@ -23,7 +23,6 @@ const HomeSection = (props) => {
           <ul className="lh-lg">{props.specsProduct1.map(specList)}</ul>
         </div>
       </div>
-
       <div className="row py-5">
         <div className="col px-5">
           <h1 className="mb-4 text-decoration-underline">

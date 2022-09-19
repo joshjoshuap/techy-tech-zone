@@ -1,7 +1,6 @@
 import {
   ipadAir2022,
   ipadMini,
-  sampleTablet,
   samsungTabA8,
   samsungTabS8,
 } from "./image-assets";

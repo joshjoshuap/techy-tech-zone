@@ -8,7 +8,6 @@ const Header = (props) => {
             <h3 className="fs-3 ps-3 my-3">{props.headerSecondaryTitle}</h3>
             <p className="fs-5 ps-3 pe-5 mt-5">{props.headerDescription}</p>
           </div>
-
           <div className="col">
             <img
               className="img-fluid w-full rounded-3"
@@ -17,7 +16,6 @@ const Header = (props) => {
             ></img>
           </div>
         </div>
-
         <div className="ps-3">
           <a
             className="btn btn-outline-light fs-5 fw-semibold py-2 px-5"

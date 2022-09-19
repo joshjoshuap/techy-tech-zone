@@ -27,8 +27,6 @@ import dellXPS13 from "../assets/images/laptop/dell-xps13.jpg";
 import dellInsipiron15 from "../assets/images/laptop/dell-inpiron15.jpg";
 import hpSpectreX360 from "../assets/images/laptop/hp-spectrex360.jpg";
 import hpEnvyX360 from "../assets/images/laptop/hp-envyx360.jpg";
-import sampleTablet from "../assets/images/sample-tablet.jpg";
-import sampleGadget from "../assets/images/sample-gadget.jpg";
 
 // Phone Image
 import iphone14Pro from "../assets/images/phone/apple-iphone14.jpg";
@@ -88,8 +86,6 @@ export {
   vivoX80Pro,
   realme9Pro,
   realme8Pro,
-  sampleTablet,
-  sampleGadget,
   ipadAir2022,
   ipadMini,
   samsungTabS8,

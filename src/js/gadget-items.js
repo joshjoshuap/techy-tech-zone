@@ -1,4 +1,4 @@
-import { playstattion5, sampleGadget, xboxSeriesX } from "./image-assets";
+import { playstattion5, xboxSeriesX } from "./image-assets";
 
 const gadgetItems = {
   consoleGaming: [

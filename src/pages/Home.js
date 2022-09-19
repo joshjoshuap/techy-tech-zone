@@ -1,4 +1,4 @@
-import { headerImage, sampleTablet, sampleGadget } from "../js/image-assets";
+import { headerImage } from "../js/image-assets";
 import Header from "../components/Header";
 import HomeSection from "../components/HomeSection";
 import laptopItems from "../js/laptop-items";
