@@ -49,6 +49,10 @@ import samsungTabS8 from "../assets/images/tablet/samsung-galaxy-tab-s8.jpg";
 import samsungTabA8 from "../assets/images/tablet/samsung-galaxy-tab-a8.jpg";
 import huaweiMatePadPro from "../assets/images/tablet/huawei-matepad-pro-126-2021.jpg";
 
+// Gadget Image
+import playstattion5 from "../assets/images/gadget/playstation5.jpg";
+import xboxSeriesX from "../assets/images/gadget/xbox-series-x.jpg";
+
 export {
   headerImage,
   laptopBrands,
@@ -91,4 +95,6 @@ export {
   samsungTabS8,
   samsungTabA8,
   huaweiMatePadPro,
+  playstattion5,
+  xboxSeriesX,
 };
