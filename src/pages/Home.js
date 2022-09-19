@@ -1,4 +1,4 @@
-import { headerImage, sampleTablet, sampleGadget } from "../js/image-assets";
+import { headerImage } from "../js/image-assets";
 import Header from "../components/Header";
 import HomeSection from "../components/HomeSection";
 import laptopItems from "../js/laptop-items";
@@ -11,10 +11,10 @@ const Home = () => {
   let acerNitro5Info = laptopItems.acer[1];
   let iphone14ProInfo = phoneItems.iphone[0];
   let iphone13Info = phoneItems.iphone[1];
-  let tabletProduct1 = tabletItems.samsung[0];
-  let tabletProduct2 = tabletItems.samsung[1];
-  let gadgetProduct1 = gadgetItems.consoleGaming[0];
-  let gadgetProduct2 = gadgetItems.consoleGaming[1];
+  let ipadAir2022Info = tabletItems.ipad[0];
+  let ipadMiniInfo = tabletItems.ipad[1];
+  let playstattion5Info = gadgetItems.consoleGaming[0];
+  let xboxSeriesXInfo = gadgetItems.consoleGaming[1];
   return (
     <>
       <Header
@@ -58,27 +58,27 @@ const Home = () => {
         {/* Tablet Section */}
         <HomeSection
           sectionTitle="Tablet"
-          titleProduct1={tabletProduct1.title}
-          imageProduct1={sampleTablet}
-          descProduct1={tabletProduct1.description}
-          specsProduct1={tabletProduct1.specs}
-          titleProduct2={tabletProduct2.title}
-          imageProduct2={sampleTablet}
-          descProduct2={tabletProduct2.description}
-          specsProduct2={tabletProduct2.specs}
+          titleProduct1={ipadAir2022Info.title}
+          imageProduct1={ipadAir2022Info.image}
+          descProduct1={ipadAir2022Info.description}
+          specsProduct1={ipadAir2022Info.specs}
+          titleProduct2={ipadMiniInfo.title}
+          imageProduct2={ipadMiniInfo.image}
+          descProduct2={ipadMiniInfo.description}
+          specsProduct2={ipadMiniInfo.specs}
         />
 
         {/* Gadgets Section */}
         <HomeSection
           sectionTitle="Gadgets"
-          titleProduct1={gadgetProduct1.title}
-          imageProduct1={sampleGadget}
-          descProduct1={gadgetProduct1.description}
-          specsProduct1={gadgetProduct1.specs}
-          titleProduct2={gadgetProduct2.title}
-          imageProduct2={sampleGadget}
-          descProduct2={gadgetProduct2.description}
-          specsProduct2={gadgetProduct2.specs}
+          titleProduct1={playstattion5Info.title}
+          imageProduct1={playstattion5Info.image}
+          descProduct1={playstattion5Info.description}
+          specsProduct1={playstattion5Info.specs}
+          titleProduct2={xboxSeriesXInfo.title}
+          imageProduct2={xboxSeriesXInfo.image}
+          descProduct2={xboxSeriesXInfo.description}
+          specsProduct2={xboxSeriesXInfo.specs}
         />
       </main>
     </>

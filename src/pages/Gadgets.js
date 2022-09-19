@@ -23,12 +23,6 @@ const Gadgets = () => {
         <ItemSection sectionTitle="Gaming Console">
           <Card info={consoleGamingInfo} />
         </ItemSection>
-        <ItemSection sectionTitle="Smart Watch">
-          <Card info={consoleGamingInfo} />
-        </ItemSection>
-        <ItemSection sectionTitle="Earbuds">
-          <Card info={consoleGamingInfo} />
-        </ItemSection>
       </main>
     </>
   );

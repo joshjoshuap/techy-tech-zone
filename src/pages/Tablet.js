@@ -5,7 +5,10 @@ import Card from "../components/Card";
 import tabletItems from "../js/tablet-items";
 
 const Tablet = () => {
+  let ipadInfo = tabletItems.ipad;
   let samsungInfo = tabletItems.samsung;
+  let huaweiInfo = tabletItems.huawei;
+
   return (
     <>
       <Header
@@ -21,16 +24,13 @@ const Tablet = () => {
       />
       <main className="container py-5" id="main">
         <ItemSection sectionTitle="IPad">
-          <Card info={samsungInfo} />
+          <Card info={ipadInfo} />
         </ItemSection>
         <ItemSection sectionTitle="Samsung">
           <Card info={samsungInfo} />
         </ItemSection>
         <ItemSection sectionTitle="Huawei">
-          <Card info={samsungInfo} />
-        </ItemSection>
-        <ItemSection sectionTitle="Microsoft">
-          <Card info={samsungInfo} />
+          <Card info={huaweiInfo} />
         </ItemSection>
       </main>
     </>

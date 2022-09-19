@@ -27,8 +27,6 @@ import dellXPS13 from "../assets/images/laptop/dell-xps13.jpg";
 import dellInsipiron15 from "../assets/images/laptop/dell-inpiron15.jpg";
 import hpSpectreX360 from "../assets/images/laptop/hp-spectrex360.jpg";
 import hpEnvyX360 from "../assets/images/laptop/hp-envyx360.jpg";
-import sampleTablet from "../assets/images/sample-tablet.jpg";
-import sampleGadget from "../assets/images/sample-gadget.jpg";
 
 // Phone Image
 import iphone14Pro from "../assets/images/phone/apple-iphone14.jpg";
@@ -41,6 +39,17 @@ import oppoFindX5Pro from "../assets/images/phone/oppo-findx5pro.jpg";
 import vivoX80Pro from "../assets/images/phone/vivo-x80pro.jpg";
 import realme9Pro from "../assets/images/phone/realme-9pro.jpg";
 import realme8Pro from "../assets/images/phone/realme-8pro.jpg";
+
+// Tablet Image
+import ipadAir2022 from "../assets/images/tablet/apple-ipadair2022.jpg";
+import ipadMini from "../assets/images/tablet/apple-ipadmini.jpg";
+import samsungTabS8 from "../assets/images/tablet/samsung-galaxy-tab-s8.jpg";
+import samsungTabA8 from "../assets/images/tablet/samsung-galaxy-tab-a8.jpg";
+import huaweiMatePadPro from "../assets/images/tablet/huawei-matepad-pro-126-2021.jpg";
+
+// Gadget Image
+import playstattion5 from "../assets/images/gadget/playstation5.jpg";
+import xboxSeriesX from "../assets/images/gadget/xbox-series-x.jpg";
 
 export {
   headerImage,
@@ -77,6 +86,11 @@ export {
   vivoX80Pro,
   realme9Pro,
   realme8Pro,
-  sampleTablet,
-  sampleGadget,
+  ipadAir2022,
+  ipadMini,
+  samsungTabS8,
+  samsungTabA8,
+  huaweiMatePadPro,
+  playstattion5,
+  xboxSeriesX,
 };

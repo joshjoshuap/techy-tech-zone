@@ -11,7 +11,7 @@ const CardInfo = (props) => {
       <img
         src={props.image}
         class="card-img-top my-2 w-75 mx-auto"
-        alt="Laptop"
+        alt="Product"
       />
       <div class="card-body">
         <h5 class="card-title fs-4 text-center mb-3">{props.title}</h5>
@@ -36,11 +36,7 @@ const CardInfo = (props) => {
 const Card = (props) => {
   let laptopInfo = props.info;
 
-  return (
-    <div className="d-flex flex-wrap gap-3 justify-content-center">
-      {laptopInfo.map(CardInfo)}
-    </div>
-  );
+  return <>{laptopInfo.map(CardInfo)}</>;
 };
 
 export default Card;
