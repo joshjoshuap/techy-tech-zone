@@ -1,6 +1,6 @@
 const Header = (props) => {
   return (
-    <header className="bg-dark text-light py-5">
+    <header className="bg-gray text-light py-5">
       <div className="container">
         <div className="row gap-1">
           <div className="col-12 col-lg w-full w-lg-25">
