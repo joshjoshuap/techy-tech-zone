@@ -3,10 +3,13 @@ import { NavLink } from "react-router-dom";
 const Navbar = (props) => {
   return (
     <>
-      <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
+      <nav className="navbar navbar-dark bg-gray navbar-expand-lg">
         <div className="container">
+          <a class="navbar-brand" href="/">
+            Techy Techy
+          </a>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler text-right"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -17,7 +20,7 @@ const Navbar = (props) => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav fs-4 fw-semibold">
+            <ul className="navbar-nav text-center fs-4 fw-semibold">
               <li className="nav-item">
                 <NavLink to="/" className="nav-link">
                   Home

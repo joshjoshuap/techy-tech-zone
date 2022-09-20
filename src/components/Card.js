@@ -3,11 +3,8 @@ const specList = (props) => {
 };
 
 const CardInfo = (props) => {
-  const cardStyle = {
-    width: "18rem",
-  };
   return (
-    <div class="d-flex card border-2 border-dark" style={cardStyle}>
+    <div class="d-flex card border-2 border-dark card-size">
       <img
         src={props.image}
         class="card-img-top my-2 w-75 mx-auto"

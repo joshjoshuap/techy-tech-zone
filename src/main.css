@@ -1,0 +1,23 @@
+.bg-gray {
+    background-color: #0F0E0E;
+}
+
+.image-responsive {
+  width: 75%;
+}
+
+.card-size {
+  width: 90%;
+}
+
+@media screen and (min-width: 720px) {
+  .card-size {
+    width: 18rem;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .image-responsive {
+    width: 50%;
+  }
+}
