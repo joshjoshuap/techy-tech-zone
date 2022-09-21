@@ -1,6 +1,8 @@
 import { NavLink } from "react-router-dom";
 
-const Navbar = (props) => {
+const Layout = (props) => {
+  let year = new Date().getFullYear();
+
   return (
     <>
       <nav className="navbar navbar-dark bg-gray navbar-expand-lg">
@@ -51,11 +53,21 @@ const Navbar = (props) => {
         </div>
       </nav>
       {props.children}
-      <footer className="bg-dark text-light text-center p-2">
-        Joshua Copyright
+      <footer className="bg-dark">
+        <p>&copy; Copyright {year} </p>
+        <p>
+          <a
+            href="https://joshjoshuap.vercel.app/"
+            className="footer-links"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Build By: Joshua Pautanes
+          </a>
+        </p>
       </footer>
     </>
   );
 };
 
-export default Navbar;
+export default Layout;
