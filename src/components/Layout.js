@@ -57,7 +57,7 @@ const Layout = (props) => {
         <p>&copy; Copyright {year} </p>
         <p>
           <a
-            href="https://joshjoshuap.vercel.app/"
+            href="https://www.joshjoshuap.site/"
             className="footer-links"
             target="_blank"
             rel="noreferrer"

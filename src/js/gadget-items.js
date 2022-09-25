@@ -22,7 +22,7 @@ const gadgetItems = {
       link: "https://www.playstation.com/en-ph/ps5/",
     },
     {
-      title: "XBOX Sereies X",
+      title: "XBOX Series X",
       image: xboxSeriesX,
       description:
         "The 12 teraflops of processing power housed in the system on a chip (SOC) work with AMD’s Zen 2 and RDNA 2 architectures to result in worlds that demand a closer look",
