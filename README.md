@@ -2,7 +2,7 @@
 
 Simple Website contains gadgets, mobile and tech trends.
 
-## Link <https://joshjoshuap-techytechzone.vercel>
+## Link <https://joshjoshuap-techytechzone.vercel.app>
 
 ### Technologies
 
